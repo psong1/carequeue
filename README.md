@@ -24,6 +24,7 @@ CareQueue is a full-stack medical admission dashboard designed to streamline pat
    - PostgreSQL 16 (running on port 5432)
 
 2. Database Setup
+
    Create a database name carequeue in PostgreSQL instance.
    Then, update the DATABASE_URL in backend/.env
 
