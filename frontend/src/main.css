@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #87ceeb;
+  --color-urgency-red: #e11d48;
+}
+
+body {
+  @apply bg-slate-50 antialiased;
+}
