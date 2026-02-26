@@ -55,6 +55,14 @@ npm run dev
 - **Type Safety**: Implemented shared TypeScript interfaces in the frontend to mirror Pydantic schemas in the backend, reducing runtime errors.
 - **Dependency Injections**: Utilized FastAPI's `Depends` for database session management to ensure efficient connection pooling and clean teardowns.
 
+## Deployment & Infrastructure
+
+This application is fully deployed and production-ready:
+
+- **Frontend**: Hosted on **Vercel** (CI/CD integrated with Github).
+- **Backend API**: Containerized with **Docker** and deployed on **Koyeb**.
+- **Database**: Serverless PostgreSQL provided by **Neon.tech**.
+
 ## Future Roadmap
 
 - **Quick-Change Triage**: Allow clinicians to cycle through priority statuses directly from the card.
